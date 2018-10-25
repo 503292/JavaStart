@@ -13,12 +13,7 @@ public class ArrCopyPaste {
 
 		Scanner sc = new Scanner(System.in);
 
-		int[] arr = new int[10];
-
-		for (int i = 0; i < arr.length; i++) {
-			System.out.println("Enter number # " + (i + 1));
-			arr[i] = sc.nextInt();
-		}
+		int[] arr = { 2, 5, 9, 1, 3, 4, 6, 346, 7, 10, 45,89, 8 };
 
 		int[] arr1 = Arrays.copyOf(arr, arr.length / 2);
 		int[] arr2 = Arrays.copyOfRange(arr, arr.length / 2, arr.length);
