@@ -16,7 +16,7 @@ public class SumNumber {
 		return x + y;
 	}
 
-	static int add(int... n) {
+	static int add(int... n) { //те ж саме що й int add(int[] n)
 		int sum = 0;
 		for (int x : n) {
 			sum += x;
