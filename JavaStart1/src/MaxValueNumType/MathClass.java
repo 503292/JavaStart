@@ -4,7 +4,7 @@ public class MathClass {
 
 	public static void main(String[] args) {
 		System.out.println("Pi = " + Math.PI);
-		
+ 		
 		System.out.println("Cos = " + Math.cos(1));
 		System.out.println("Sin = " + Math.sin(1));
 		
