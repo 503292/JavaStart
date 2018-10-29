@@ -9,6 +9,7 @@ public class EnterYourDate {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 		
 		System.out.println("Enter the date: ");
