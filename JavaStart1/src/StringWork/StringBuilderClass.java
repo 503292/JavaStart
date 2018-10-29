@@ -21,7 +21,7 @@ public class StringBuilderClass {
 		
 		
 		// #3
-		sb = new StringBuilder("stsrt-");
+		sb = new StringBuilder("stsrt-"); // з початковим значенням строки
 		for (int i = 0; i < 10; i++) {
 			sb.append('x');
 		}
@@ -29,7 +29,7 @@ public class StringBuilderClass {
 		
 		
 		// #4
-		sb = new StringBuilder(10);
+		sb = new StringBuilder(10);   // під скільки символів виділити пам'яті одразу
 		for (int i = 0; i < 10; i++) {
 			sb.append('x');
 		}
